@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "2f6b3d6a56493912",
+    "type": "split",
+    "children": [
+      {
+        "id": "67ab14152c12a30b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb5052aae49fabb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anekdot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Anekdot"
+            }
+          },
+          {
+            "id": "594f97e41b2e55f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anekdot1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Anekdot1"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb22bfa84dc9ccae",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "be805fd216d8bde3",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "93dbca09b93112fe",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:#BookNonFiction",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "ec7e4aa39f6131da",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "25cd07c744cd7b4c",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "612399dcf21b799b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "666589fbfb6f64f8",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "РУССКАЯ ИСТОРИЯ ДВАДЦАТОГО ВЕКА По Блоку.(Генрих Шмеркин)..md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "c2868bc507b4f26a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "6940ed868dc24826",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {},
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "594f97e41b2e55f7",
+  "lastOpenFiles": [
+    "Book. Non fiction.md",
+    "Anekdot1.md",
+    "РУССКАЯ ИСТОРИЯ ДВАДЦАТОГО ВЕКА По Блоку.(Генрих Шмеркин)..md",
+    "Anekdot.md",
+    "Pasternak. Hamlet.md",
+    "Pasternak. Gamlet.md",
+    "Евтушенко. Карьера.md",
+    "Бродский. Конец прекрасной эпохи.md",
+    "Бродский. Пилигримы.md",
+    "Бродский. Рождественский романс..md"
+  ]
+}
