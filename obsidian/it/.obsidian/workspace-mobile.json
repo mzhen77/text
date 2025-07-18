@@ -48,7 +48,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#ide",
+            "query": "Termu",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -151,6 +151,8 @@
   },
   "active": "b77c82ca7460cb06",
   "lastOpenFiles": [
+    "Termux.md",
+    "ide.md",
     "python env info.md",
     "motor.md",
     "hosts.md",
