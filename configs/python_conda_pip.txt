@@ -1,0 +1,61 @@
+nvcc --version
+
+conda info
+conda env list
+conda list <package name>
+conda list -n myenv
+conda env remove --name myenv
+conda update conda
+conda search <package name>
+conda create --name py311 python=3.11
+conda update -n base -c defaults conda
+
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+conda install matplotlib
+conda install jupyterlab
+conda install ipywidgets
+conda install seaborn
+
+conda install conda-forge::langchain
+conda install conda-forge::tiktoken
+conda install conda-forge::sentence-transformers
+conda install conda-forge::chromadb
+conda install conda-forge::langchain-openai
+conda install conda-forge::faiss-gpu
+conda install -c conda-forge fmpy
+conda install conda-forge::pyfmi
+conda install conda-forge::pebble
+conda install conda-forge::mystic
+conda install conda-forge::nptdms
+conda install conda-forge::pymc
+
+pip install langchainhub
+
+pip install .\jaxlib-0.4.12-cp311-cp311-win_amd64.whl
+pip install jax==0.4.12
+
+-----------------OLD----------------------
+pip install .\jaxlib-0.4.11+cuda.cudnn86-cp311-cp311-win_amd64.whl
+pip install jax
+pip install tensorflow
+ 
+pip install stable-baselines3
+pip install notebook
+pip install torch_geometric
+pip install ultralytics
+pip install tensorboard
+pip install html2text
+pip install modelica-builder
+pip install umap-learn
+pip install py7zr
+
+# NLP
+
+pip install sentencepiece
+pip install nltk
+pip install rouge_score
+pip install transformers
+pip install accelerate
+pip install huggingface_hub
+pip install evaluate
+pip install datasets

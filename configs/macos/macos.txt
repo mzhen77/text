@@ -1,0 +1,6 @@
+Raycast passw:
+raycast13
+-----------------------------
+iterm2 theme:
+flexoki-light
+-----------------------------

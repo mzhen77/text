@@ -1,0 +1,25 @@
+# update ubuntu
+$ sudo apt update && sudo apt full-upgrade
+# restart Ubuntu
+$ sudo do-release-upgrade
+
+# check version
+$ lsb_release -a
+
+# Install Nautilus
+# To launch, enter: nautilus
+$ sudo apt install nautilus -y
+
+# Ubuntu from Windows
+\\wsl.localhost\Ubuntu
+
+# Installing WSL2, PyTorch and CUDA on Windows 11
+https://joelognn.medium.com/installing-wsl2-pytorch-and-cuda-on-windows-11-65a739158d76
+
+from windows console:
+> wsl --version
+> wsl --update
+> wsl --shutdown
+
+sudo vim /mnt/wsl/resolv.conf
+change  nameserver 172.26.80.1 -> nameserver 8.8.8.8
