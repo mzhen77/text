@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux.md",
+                "file": "ide.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "ide"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "Termux"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#linux",
+                "query": "tag:#ide",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a985696dec7d15de",
+  "active": "27b3d2501391f843",
   "lastOpenFiles": [
-    "Termux.md",
     "Linux.md",
+    "Termux.md",
     "git.md",
     "ide.md",
     "conda.md",

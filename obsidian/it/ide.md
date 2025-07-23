@@ -9,8 +9,9 @@ shift + F5 -Cmake: Debug
  
 #### Windows
 Ctrl+K +S - keyboard shortcut
-shift+F10 - run Python file
-shift+F9 - debug Python file
+cntr + F5 - run Python file
+F5 - debug Python file
+shift + alt + F - format document
 
 ## PyCharm
 #### MacOS
