@@ -12,6 +12,7 @@ Ctrl+K +S - keyboard shortcut
 cntr + F5 - run Python file
 F5 - debug Python file
 shift + alt + F - format document
+Ctrl+Shift+D - Select Configuration to run/debug from "launch.json"
 
 ## PyCharm
 #### MacOS
