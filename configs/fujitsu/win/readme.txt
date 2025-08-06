@@ -1,0 +1,1 @@
+C:\Users\mzhenirovskyy\Documents\PowerShell\profile.ps1 <- PowerShell 7

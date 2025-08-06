@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ide.md",
+                "file": "git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ide"
+              "title": "git"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ide",
+                "query": "tag:#git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,10 +182,10 @@
   },
   "active": "27b3d2501391f843",
   "lastOpenFiles": [
+    "ide.md",
     "Linux.md",
     "Termux.md",
     "git.md",
-    "ide.md",
     "conda.md",
     "poetry cli check.md",
     "pip.md",
