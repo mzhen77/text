@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bfa3ded20fb1332b",
+            "id": "0eb6dcd581c029d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Understanding Deep Learning.md",
+                "file": "Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Understanding Deep Learning"
+              "title": "Python"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,24 +166,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bfa3ded20fb1332b",
+  "active": "0eb6dcd581c029d7",
   "lastOpenFiles": [
-    "Cpp learning.md",
-    "CUDA.md",
-    "Онлайн-учебник.md",
-    "alife.md",
+    "AI, text.md",
+    "Understanding Deep Learning.md",
+    "pyenv.md",
+    "Python.md",
+    "CPython.md",
     "Code from Scratch.md",
     "AI, video.md",
-    "AI, text.md",
-    "GPU.md",
+    "Онлайн-учебник.md",
+    "Stock.md",
+    "alife.md",
     "cmake.md",
+    "GPU.md",
+    "Cpp learning.md",
+    "CUDA.md",
     "qBittorrent.md",
     "Решаем судоку на pytorch.md",
     "docker.md",
-    "Understanding Deep Learning.md",
     "Subscription.md",
-    "CPython.md",
-    "pyenv.md",
     "Diffusion модель.md",
     "Welcome.md"
   ]
