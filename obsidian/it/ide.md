@@ -9,10 +9,14 @@ shift + F5 -Cmake: Debug
  
 #### Windows
 Ctrl+K +S - keyboard shortcut
-cntr + F5 - run Python file
+Ctrl + F5 - run Python file
 F5 - debug Python file
-shift + alt + F - format document
+Shift + Alt + F - format document
 Ctrl+Shift+D - Select Configuration to run/debug from "launch.json"
+Ctrl+K+0 - folds all regions in the editor
+Ctrl+K +J - unfolds all regions in the editor
+Ctrl+K +2  - (for level 2) - folds all regions of level X, except the region at the current cursor position.
+
 
 ## PyCharm
 #### MacOS
