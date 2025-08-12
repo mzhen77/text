@@ -1,53 +1,47 @@
 {
-    "remote.SSH.remotePlatform": {
-        "10.159.38.200": "linux"
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "explorer.compactFolders": false,
+    "explorer.copyRelativePathSeparator": "/",
+    "explorer.copyPathSeparator": "/",
+    "terminal.integrated.fontSize": 14,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
     },
+    "ruff.lineLength": 100,
+    "python.analysis.autoImportCompletions": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
+    "workbench.editor.revealIfOpen": true,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.enablePreview": false,
     "workbench.list.openMode": "doubleClick",
     "workbench.tree.indent": 15,
     "workbench.tree.renderIndentGuides": "always",
     "workbench.colorCustomizations": {
         "tree.indentGuidesStroke": "#666"
     },
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "ms-python.python",
-    "workbench.colorTheme": "Visual Studio Light",
+    "remote.SSH.remotePlatform": {
+        "10.159.38.200": "linux"
+    },
+    "workbench.editor.enablePreview": false,
+    "yaml.validate": false,
     "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "redhat.telemetry.enabled": false,
-    "explorer.confirmPasteNative": false,
-    "workbench.editor.revealIfOpen": true,
-    "ruff.enable": true,
-    "ruff.lint.enable": true,
-    "ruff.fixAll": true,
-    "ruff.organizeImports": true,
-    "ruff.configurationPreference": "filesystemFirst",
-    "files.encoding": "utf8",
-    "files.eol": "\r\n",
-    "editor.fontSize": 15,
-    "terminal.integrated.fontSize": 15,
-    "[python]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.codeActionsOnSave": {
-            "source.fixAll.ruff": "explicit",
-            "source.organizeImports.ruff": "explicit"
-        },
-    },
-    "python.analysis.typeCheckingMode": "basic",
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "[toml]": {
-        "editor.defaultFormatter": "tamasfe.even-better-toml"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "security.workspace.trust.untrustedFiles": "open"
+    "telemetry.editStats.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "workbench.colorTheme": "Default Dark+",
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.autoTestDiscoverOnSaveEnabled": true
 }
