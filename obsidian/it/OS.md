@@ -1,3 +1,15 @@
+
+## Window
+
+Open File explorer from the terminal: 
+\> start .
+\>explorer .
+
+ALT + Space - open "Power Toys"
+
+
+## MacOS
+
 hyperkey == Caps Lock == cntr+opt+cmd+caps lock 
 
 Caps Lock+F --- open finder
@@ -29,8 +41,5 @@ cntr-D: Deletes the character to the right of the cursor
 
 cntr+shift+3 - Window: last two-thirds
 
+#os
 
-
-
-
-#macos

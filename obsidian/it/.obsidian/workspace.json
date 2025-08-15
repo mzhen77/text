@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conda.md",
+                "file": "pip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conda"
+              "title": "pip"
             }
           }
         ]
@@ -169,10 +169,11 @@
   "active": "27b3d2501391f843",
   "lastOpenFiles": [
     "poetry.md",
+    "OS.md",
+    "ide.md",
     "conda.md",
     "pip.md",
     "git.md",
-    "ide.md",
     "Termux.md",
     "Linux.md",
     "poetry cli check.md",
@@ -185,7 +186,6 @@
     "hosts.md",
     "scale.md",
     "Ubuntu PCs.md",
-    "keymaps.md",
     "Jupyter.md",
     "python env info.md",
     "wsl bashrc.md",
