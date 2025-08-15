@@ -56,6 +56,7 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+
 # Function to get the git branch name
 parse_git_branch() {
   git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
@@ -83,6 +84,7 @@ if [ "$color_prompt" = yes ]; then
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(if [[ $(git rev-parse --is-inside-work-tree 2>/dev/null) == "true" ]]; then echo " [$(parse_git_branch) $(git_status)]"; fi)\$ '
 fi
+
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
@@ -138,12 +140,26 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/mzhenirovskyy/miniforge3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/mzhenirovskyy/miniforge3/etc/profile.d/conda.sh" ]; then
+        . "/home/mzhenirovskyy/miniforge3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/mzhenirovskyy/miniforge3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 
-export PATH="$HOME/miniforge3/bin:$PATH"
+
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'mamba shell init' !!
 export MAMBA_EXE='/home/mzhenirovskyy/miniforge3/bin/mamba';
-export MAMBA_ROOT_PREFIX='/home/mzhenirovskyy/.local/share/mamba';
+export MAMBA_ROOT_PREFIX='/home/mzhenirovskyy/miniforge3';
 __mamba_setup="$("$MAMBA_EXE" shell hook --shell bash --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__mamba_setup"
@@ -155,5 +171,8 @@ unset __mamba_setup
 
 alias ma='mamba activate'
 alias ms='mamba search'
+alias mi='mamba install'
 
-cd ~/projects
+export OLLAMA_USE_GPU=1
+export PATH="/usr/local/cuda-13.0/bin:$PATH"
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH

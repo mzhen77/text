@@ -1,0 +1,10 @@
+[user]
+	name = mzhenirovskyy
+	email = mzhenirovskyy@fujitsu.com
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+[alias]
+	co = checkout
+	cob = checkout -b
+	br = branch
+	st=status
